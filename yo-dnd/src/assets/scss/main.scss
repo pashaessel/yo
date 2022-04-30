@@ -1,0 +1,24 @@
+// Styles reset
+@import 'reset';
+// Roboto 400,700
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+
+html {
+  font-size: 10px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  // color: #2c3e50;
+}
+
+.container {
+  height: 100%;
+  width: 107rem;
+  margin: 0 auto;
+  color: $purple;
+}
+
