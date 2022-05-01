@@ -1,0 +1,20 @@
+.btn {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: white;
+}
+.btn-primary {
+  background-color: $purple;
+  border-radius: 5px;
+  color: white;
+  padding: 1rem 2rem;
+  &:hover {
+    background-color: #7913c0;
+  }
+}
+.btn-secondary {
+  color: #2c3e50;
+  &:hover {
+    color: $purple;
+  }
+}

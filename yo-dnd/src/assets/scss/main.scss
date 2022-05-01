@@ -1,24 +1,42 @@
-// Styles reset
-@import 'reset';
 // Roboto 400,700
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+// Styles reset
+@import 'reset';
+// Buttons and Routers
+@import 'buttons';
 
 
 
 html {
+  box-sizing: border-box;
   font-size: 10px;
   font-family: Roboto, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  // color: #2c3e50;
+  color: #2c3e50;
+}
+input {
+  border: none;
+}
+h1 {
+  font-size: 3.2rem;
+  font-weight: bold;
+  line-height: 1rem;
+
+}
+.page {
+  margin-top: 6.6rem;
+}
+a {
+  cursor: pointer;
+  color: #2c3e50;
+  text-decoration: none;
 }
 
 .container {
   height: 100%;
   width: 107rem;
   margin: 0 auto;
-  color: $purple;
 }
 
