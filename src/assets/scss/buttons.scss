@@ -1,13 +1,16 @@
 .btn {
+  font-family: 'Poiret One';
+  margin-top: 2.1rem;
   font-size: 1.6rem;
   font-weight: bold;
   color: white;
+  border-radius: 10px;
+  width: 90%;
 }
 .btn-primary {
-  background-color: $purple;
-  border-radius: 5px;
+  background-color: $primary-button;
   color: white;
-  padding: 1rem 2rem;
+  padding: 1.3rem 2rem;
   &:hover {
     background-color: #7913c0;
   }
@@ -15,6 +18,6 @@
 .btn-secondary {
   color: #2c3e50;
   &:hover {
-    color: $purple;
+    color: $primary-button;
   }
 }

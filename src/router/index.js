@@ -13,7 +13,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/CampaingsView.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/CampaignsView.vue')
   },
   {
     path: '/campaigns/create',
@@ -21,9 +21,9 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/CampaingsCreateView.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/CampaignsCreateView.vue')
   },
-  
+
 ]
 
 const router = createRouter({

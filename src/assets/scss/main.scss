@@ -1,5 +1,13 @@
 // Roboto 400,700
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+//Caveat 400,700
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+//Armatic SC
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+// Poiret One
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+// Open Sans
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 // Styles reset
 @import 'reset';
 // Buttons and Routers
@@ -24,9 +32,6 @@ h1 {
   font-weight: bold;
   line-height: 1rem;
 
-}
-.page {
-  margin-top: 6.6rem;
 }
 a {
   cursor: pointer;
