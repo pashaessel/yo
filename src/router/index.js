@@ -13,15 +13,22 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/CampaignsView.vue')
+    component: () => import('../views/campaigns/CampaignsView.vue')
   },
   {
     path: '/campaigns/create',
     name: 'campaigns/create',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/CampaignsCreateView.vue')
+    component: () => import('../views/campaigns/CampaignsCreateView.vue')
+  },
+  {
+    path: '/sign-in',
+    name: 'sign-in',
+    component: () => import('../views/authorize/SignInView.vue')
+  },
+  {
+    path: '/sign-up',
+    name: 'sign-up',
+    component: () => import('../views/authorize/SignUpView.vue')
   },
 
 ]

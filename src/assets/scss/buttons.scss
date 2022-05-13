@@ -1,6 +1,6 @@
 .btn {
   font-family: 'Poiret One';
-  margin-top: 2.1rem;
+  margin-top: 3.1rem;
   font-size: 1.6rem;
   font-weight: bold;
   color: white;
@@ -8,7 +8,8 @@
   width: 90%;
 }
 .btn-primary {
-  background-color: $primary-button;
+  background-color: #1d4f4d;
+  // background-color: $primary-button;
   color: white;
   padding: 1.3rem 2rem;
   &:hover {
